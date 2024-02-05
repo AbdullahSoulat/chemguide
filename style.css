@@ -1,0 +1,259 @@
+body {
+    background-color: #0D0E10;
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.wrapper {
+    margin: 1em 5em;
+    position: relative;
+}
+
+div {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.header-left {
+    display: flex;
+}
+
+.logo-text {
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 1em;
+}
+
+.book {
+    background-color: white;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    padding-right: 1.5em;
+}
+
+.hero-image {
+    background-color: white;
+    margin-right: -19em;
+    padding: 2em 15em 2em 3em;
+    border-radius: 50em;
+}
+
+main div h1 {
+    font-size: 3rem;
+}
+
+.subhead {
+    font-size: 1.1rem;
+}
+
+.primary-cta {
+    display: inline-flex;
+    align-items: center;
+    flex-basis: 1em;
+    background-color: white;
+    border-radius: 5em;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.primary-cta a {
+    color: black;
+    padding-right: 0.5em;
+}
+
+.orange-gradient {
+    position: absolute;
+    bottom: -500px;
+    left: -100px;
+    z-index: -1;
+}
+
+.green-gradient {
+    position: absolute;
+    bottom: -500px;
+    right: -100px;
+    z-index: -1;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1.5fr;
+    grid-template-rows: 1.1fr 1fr;
+    gap: 16px;
+    margin-top: 7em;
+}
+
+
+
+.instrumental {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0em 1.2em;
+}
+
+.instrumental-title {
+    display: flex;
+    color: black;
+}
+
+.inorganic {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0em 1.2em;
+    position: relative;
+}
+
+.inorganic h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inorganic-content {
+    display: flex;
+    color: black;
+    margin-top: 3em;
+}
+
+.inorganic img {
+    margin-right: -2em;
+    margin-left: -3em;
+}
+
+.basic-organic {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0em 1.2em;
+}
+
+.basic-organic-title {
+    display: flex;
+    color: black;
+}
+
+.basic-organic p {
+    margin-top: -0.75em;
+}
+
+.atomic {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0em 1.2em;
+}
+
+.atomic-title {
+    display: flex;
+    color: black;
+}
+
+.atomic p {
+    margin-top: -0.3em;
+}
+
+.physical {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0em 1.2em;
+}
+
+.physical h2 {
+    position: relative;
+    left: 32%;
+}
+
+.physical-content {
+    display: flex;
+    color: black;
+}
+
+.physical-content img {
+    margin-right: 1em;
+}
+
+.physical-content img {
+    margin-right: 2em;
+}
+
+footer {
+    background-color: rgba(18, 18, 18, 0.085);
+    margin: 5em -5em;
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    position: absolute;
+    bottom: -100;
+}
+
+
+.footer-left {
+    display: inline-flex;
+}
+
+.footer-left img {
+    padding: 1em;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+.message p {
+    color: black;
+    z-index: 100;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.message p::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 153px;
+    height: 50px;
+    border-radius: 500px;
+    top: -15px;
+    left: -18px;
+    background-color: white;
+}
+
+.message p:hover {
+    cursor: pointer;
+}
+
