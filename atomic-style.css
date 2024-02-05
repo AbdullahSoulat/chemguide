@@ -1,0 +1,130 @@
+body {
+    background-color: #0D0E10;
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.wrapper {
+    margin: 1em 5em;
+    position: relative;
+}
+
+div {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    width: 90vw;
+    height: 1px;
+    background-color: white;
+    bottom: 10px;
+}
+
+.header-left {
+    display: flex;
+}
+
+.logo-text {
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 1em;
+}
+
+.book {
+    background-color: white;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 0em 1.3em;
+    border-radius: 500px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.topic-name img {
+    width: 1.75em;
+    margin-left: 1em;
+}
+
+.topic-name p {
+    color: #959595;
+    font-weight: 400;
+}
+
+main {
+    background-color: #17181A;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 0.2em 2em;
+    display: grid;
+    place-items: center;
+}
+
+h4 {
+    font-weight: 600;
+    justify-self: start;
+    margin-bottom: -0.3em;
+}
+
+ul, p {
+    justify-self: start;
+}
+
+p {
+    font-size: 0.89rem;
+}
+
+.table {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 60vw;
+}
+
+.note {
+    font-size: 0.85rem;
+    color: black;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 2em 6.5em;
+    background-image: linear-gradient(160deg ,#B8FFF8, #FFCABB) 
+}
+
+.charge {
+    background-color: white;
+    border-radius: 25px;
+    padding: 1em;
+    margin: 1em;
+    width: 40vw;
+}
